@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <script src="https://app.five9.com/consoles/SocialWidget/five9-social-widget.min.js"></script>
+    </head>
+
+
+    <body>
+        <script>
+            var options = {
+                "rootUrl": "https://app.five9.com/consoles/",
+                "type": "chat",
+                "title": "Chat ",
+                "tenant": "positecusa",
+                "profiles": "Five9 Chat",
+                "showProfiles": true,
+                "autostart": true,
+                "theme": "default-theme.css",
+                "surveyOptions": {
+                    "showComment": true,
+                    "requireComment": false
+                },
+                "fields": {
+                    "name": {
+                        "value": "",
+                        "show": true,
+                        "label": "Name"
+                    },
+                    "email": {
+                        "value": "",
+                        "show": true,
+                        "label": "Email"
+                    },
+                    "JohnOmni.MonthsInQuarantine": {
+                        "value": "",
+                        "show": true,
+                        "label": "Number of Months In Quarantine",
+                        "required": true
+                    }
+                },
+                "playSoundOnMessage": true,
+                "allowCustomerToControlSoundPlay": false,
+                "showEmailButton": true,
+                "hideDuringAfterHours": true,
+                "useBusinessHours": true,
+                "showPrintButton": false,
+                "allowUsabilityMenu": false,
+                "enableCallback": true,
+                "callbackList": "ChatCallBack",
+                "callbackConfirmation": "\"We will call you as soon as we can at [PHONE]\"",
+                "allowRequestLiveAgent": false
+            };
+            Five9SocialWidget.addWidget(options);
+            
+            </script>
+    </body>
+</html>
