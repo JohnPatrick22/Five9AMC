@@ -22,7 +22,7 @@ chatLangCallback({
     "S_NAME_LABEL": "Name",
     "S_EMAIL_LABEL": "Email",
     "S_QUESTION_LABEL": "Question",
-    "S_START_BUTTON": "Start Chat",
+    "S_START_BUTTON": "Start Beetch",
     "S_SUBJECT_LABEL": "Subject",
     "S_CONTENT_LABEL": "Content",
     "S_SEND_EMAIL_BUTTON": "Send Email",
