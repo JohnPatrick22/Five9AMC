@@ -11,7 +11,7 @@ chatLangCallback({
     "S_NAME_LABEL": "Name",
     "S_EMAIL_LABEL": "Email address",
     "S_QUESTION_LABEL": "Question",
-    "S_START_BUTTON": "Start to chat"
+    "S_START_BUTTON": "Start Beetch"
   },
   "S_CONNECTING_PAGE": {
     "S_CONTENT": "You are being connected to an agent."
